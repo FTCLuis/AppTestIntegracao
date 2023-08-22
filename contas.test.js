@@ -1,10 +1,8 @@
 const contas = require('./contas.js')
-
 // test(contas,()=> {
     
 // })
 
-
-test("Soma 2+5 esperando 7 como resultado", () => { 
-    expect((contas.soma(2,5)).toBe(7))
-})
+    test("Soma 2+5 esperando 7 como resultado", () => { 
+        expect(contas.soma(2,5)).toBe(7)
+    })

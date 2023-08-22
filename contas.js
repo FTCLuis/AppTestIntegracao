@@ -37,4 +37,4 @@ const subtracao = (a,b) => (!parseFloat(a) && parseFloat(a) != 0) || (!parseFloa
 const multiplicacao = (a,b) => (!parseFloat(a) && parseFloat(a) != 0) || (!parseFloat(b) && parseFloat(b) != 0)? false : a * b
 const divisao = (a,b) => (!parseFloat(a) && parseFloat(a) != 0) || (!parseFloat(b) && parseFloat(b) != 0) ? false : a / b
 
-export { soma, subtracao, multiplicacao, divisao }
+module.exports = { soma, subtracao, multiplicacao, divisao }
